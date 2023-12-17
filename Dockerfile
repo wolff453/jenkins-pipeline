@@ -6,6 +6,6 @@ COPY package-*.json .
 
 RUN npm ci
 
-COPY . .
+COPY . /app
 
 CMD ["npm", "start"]
